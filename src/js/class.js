@@ -4,7 +4,7 @@ class myWeather {
   constructor() {}
 
   getFetch(cityName) {
-    let apiKey = "a1095963c2038258b8d361efe30c09a1";
+    let apiKey = "4969dc6edacb0c2c33df4734a435335f";
     // let cityName = "Sumy";
     const { weather, city, temp, flex, humidity, wind } = refs;
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
